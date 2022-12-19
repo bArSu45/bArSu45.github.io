@@ -14,16 +14,16 @@
 
 
 .logo {
-    width: 50%;
+    width: 48%;
     height: 150px;
     display: block;
     margin: auto;
     border-radius: 5px 50px 5px;
-    box-shadow: #698474 0px 0px 0px 3px, #889E81 0px 0px 0px 6px, #BAC7A7 0px 0px 0px 9px, #CCD6A6 0px 0px 0px 12px, #E5E4CC 0px 0px 0px 15px;
+    box-shadow: #371B58 0px 0px 0px 3px, #4C3575 0px 0px 0px 6px, #A084CA 0px 0px 0px 9px, #7858A6 0px 0px 0px 12px, #BFACE0 0px 0px 0px 15px;
 }
 
 .logo:hover {
-    box-shadow: #243D25 0px 0px 0px 9px;
+    box-shadow: #371B58 0px 0px 0px 9px;
 }
 
 .skillH3 {

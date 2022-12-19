@@ -11,7 +11,8 @@
     border: 5px solid #4C3575;
     display: flex;
     margin-top: 30px;
-    border-radius: 30px;
+    border-radius: 50px;
+    margin-bottom: 50px;
 }
 
 #aboutDetails {

@@ -9,7 +9,7 @@ export default function Home({ colorMode }) {
 
     return (
         <div>
-            <VStack id={style.home} style={{ color: colorMode === 'light' ? "" : '#488A99' }}>
+            <VStack id={style.home} style={{ color: colorMode === 'light' ? "#4C3575" : '#488A99' }}>
                 <Flex alignItems={isMediumScreen ? "end" : "start"} flexDirection={isSmallScreen ? "row" : "column"} >
                     <Image id={style.myImg} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif' alt='Barsa Ima' />
                     <Box id={style.myDetailsDiv} >

@@ -20,6 +20,12 @@ export default function Navbar({ colorMode }) {
                     </h3>
 
                     <h3 className={styles.nav1H}>
+                        <Link smooth to='#About'>
+                            About
+                        </Link>
+                    </h3>
+
+                    <h3 className={styles.nav1H}>
                         <Link smooth to='#Skills'>
                             Skills
                         </Link>
@@ -28,12 +34,6 @@ export default function Navbar({ colorMode }) {
                     <h3 className={styles.nav1H}>
                         <Link smooth to='#Projects'>
                             Projects
-                        </Link>
-                    </h3>
-
-                    <h3 className={styles.nav1H}>
-                        <Link smooth to='#About'>
-                            About
                         </Link>
                     </h3>
 
@@ -65,6 +65,12 @@ export default function Navbar({ colorMode }) {
                                     Home
                                 </MenuItem>
                             </Link>
+
+                            <Link smooth to='#About'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                    About
+                                </MenuItem>
+                            </Link>
                             <Link smooth to='#Skills'>
                                 <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     Skills
@@ -73,11 +79,6 @@ export default function Navbar({ colorMode }) {
                             <Link smooth to='#Projects'>
                                 <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
                                     Projects
-                                </MenuItem>
-                            </Link>
-                            <Link smooth to='#About'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
-                                    About
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#Contact'>

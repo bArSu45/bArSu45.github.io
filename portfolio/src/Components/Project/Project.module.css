@@ -13,7 +13,8 @@
 
 .major_projectDiv {
     background-color: #FEF5ED;
-    color: #243D25;
+    border: 3px solid #4C3575;
+    color: #4C3575;
     width: 95%;
     margin: auto;
     margin-top: 50px;

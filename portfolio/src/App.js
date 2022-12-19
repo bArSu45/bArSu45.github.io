@@ -19,9 +19,9 @@ function App() {
       <Button size='lg' id='themeButton' onClick={toggleColorMode} > {colorMode === 'light' ? <FaMoon fontSize='20px' /> : <FaSun fontSize='20px' />}</Button>
       <Navbar colorMode={colorMode} />
       <Home colorMode={colorMode} />
+      <About colorMode={colorMode} />
       <Skills colorMode={colorMode} />
       <Project colorMode={colorMode} />
-      <About colorMode={colorMode} />
       <Stat colorMode={colorMode} />
       <GitHub colorMode={colorMode} />
       <Contact colorMode={colorMode} />

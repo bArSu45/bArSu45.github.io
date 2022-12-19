@@ -11,7 +11,7 @@ const GitHub = ({ colorMode }) => {
 
   return (
     <div className={"#github"}>
-      <Heading textAlign='center' size={['2xl', '2xl', '2xl', '3xl']} color={colorMode === 'light' ? "#243D25" : '#488A99'} mb='50px'>GITHUB CALENDAR</Heading>
+      <Heading textAlign='center' size={['2xl', '2xl', '2xl', '3xl']} color={colorMode === 'light' ? "#4C3575" : '#488A99'} mb='50px'>GITHUB CALENDAR</Heading>
 
       <Box
         w="100%"
