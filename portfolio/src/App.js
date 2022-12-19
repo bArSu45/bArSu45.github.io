@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import Skills from './Components/Skills/Skills';
+import Project from './Components/Project/Project';
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -15,6 +16,7 @@ function App() {
       <Navbar colorMode={colorMode} />
       <Home colorMode={colorMode} />
       <Skills colorMode={colorMode} />
+      <Project colorMode={colorMode} />
       <About colorMode={colorMode} />
     </div>
   );
