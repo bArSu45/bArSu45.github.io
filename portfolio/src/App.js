@@ -8,6 +8,7 @@ import Skills from './Components/Skills/Skills';
 import Project from './Components/Project/Project';
 import Stat from './Components/Stat/Stat';
 import GitHub from './Components/Github/Github';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -22,6 +23,7 @@ function App() {
       <About colorMode={colorMode} />
       <Stat colorMode={colorMode} />
       <GitHub colorMode={colorMode} />
+      <Contact colorMode={colorMode} />
     </div>
   );
 }
