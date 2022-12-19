@@ -13,19 +13,20 @@ export default function MajorProject({ colorMode }) {
 
     return (
         <div id={style.majorMain}>
-            <Heading size={['lg', 'lg', 'lg', '2xl']} color={colorMode === 'light' ? "#4C3575" : '#488A99'} textDecoration='underline'>Major Projects</Heading>
+            <Heading size={['lg', 'lg', 'lg', '2xl']} color={colorMode === 'light' ? "#4C3575" : '#BFACE0'} textDecoration='underline'>Major Projects</Heading>
             <div data-aos="fade-up"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>
-                    <Image src='https://clinquant-lily-6a6bb2.netlify.app/3.png' alt='barsu' />
+                    <Image src='/4.png' alt='barsu' />
                 </Box>
-                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#4C3575" : '#488A99'}>
-                    <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']}>TMETRIC(Cloned)</Heading>
-                    <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Simple time tracking app which helps you to control your time, increase productivity, monitor your team performance.</Heading>
+
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#4C3575" : '#371B58'}>
+                    <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']}>TOGGLE TRACK(Cloned)</Heading>
+                    <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Toggl Track is a time tracking app that allows you to track your daily activities, you can set your tasks and also create your projects.</Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>
                     <Box className={style.major_project_detailsDi_btnDiv}>
-                        <Button size={['xs', 'sm', 'sm', 'md']}><a className={style.links} rel="noreferrer" href="https://github.com/Shibshankar01/wooden-tongue-937" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
-                        <Button size={['xs', 'sm', 'sm', 'md']}><a className={style.links} rel="noreferrer" href="https://amazing-daffodil-72806d.netlify.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
+                        <Button size={['xs', 'sm', 'sm', 'md']}><a className={style.links} rel="noreferrer" href="https://github.com/Amanyadav2030/toggl-track-clone" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
+                        <Button size={['xs', 'sm', 'sm', 'md']}><a className={style.links} rel="noreferrer" href="https://toggl-launching.vercel.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
                     </Box>
                 </Box>
             </div>
@@ -33,7 +34,7 @@ export default function MajorProject({ colorMode }) {
             <div data-aos="fade-up"
                 className={style.major_projectDiv}
                 id={style.major_projectDivId} >
-                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#4C3575" : '#488A99'}>
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#4C3575" : '#371B58'}>
                     <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']}>DNA NEWS(Cloned)</Heading>
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Launched on July 30, 2005, in Mumbai. Through news, views, analyses and interactivity, dna provides readers with a composite unbiased picture of the city.</Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>
@@ -52,7 +53,7 @@ export default function MajorProject({ colorMode }) {
                 <Box className={style.major_project_imgDiv}>
                     <Image src='/3.png' alt='barsu' />
                 </Box>
-                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#4C3575" : '#488A99'}>
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#4C3575" : '#371B58'}>
                     <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']}>TMETRIC(Cloned)</Heading>
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>Simple time tracking app which helps you to control your time, increase productivity, monitor your team performance.</Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>

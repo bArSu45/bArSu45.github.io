@@ -12,19 +12,19 @@ function Stat({ colorMode }) {
             <p>Hrs Coding</p>
           </div>
           <div className={style.portfolios}>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#488A99' }}>
+            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
               <h4>60+</h4>
               <h6>Mini Projects</h6>
             </div>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#488A99' }}>
+            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
               <h4>05+</h4>
               <h6>Major Projects</h6>
             </div>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#488A99' }}>
+            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
               <h4>300+</h4>
               <h6>DSA Problem</h6>
             </div>
-            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#488A99' }}>
+            <div className={style.portfolio} style={{ backgroundColor: colorMode === 'light' ? "#7858A6" : '#BFACE0' }}>
               <h4>200+</h4>
               <h6>Hrs Soft Skills</h6>
             </div>

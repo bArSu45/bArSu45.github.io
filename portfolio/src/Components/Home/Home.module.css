@@ -21,7 +21,7 @@
 
 #myName {
   margin-bottom: 7px;
-  font-size: 88px;
+  font-size: 68px;
   animation: type 3s steps(22);
   overflow: hidden;
   white-space: nowrap;

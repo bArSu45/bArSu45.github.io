@@ -28,9 +28,10 @@
 #footer_aDiv>a {
     font-size: 30px;
     margin-right: 10px;
+    color: #FEF5ED;
 }
 #footer_aDiv>a:hover{
-    background-color: #39543a;
+    background-color: #A084CA;
 }
 #footer_aDiv {
     display: flex;

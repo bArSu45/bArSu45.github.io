@@ -8,7 +8,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 export default function Navbar({ colorMode }) {
     return (
         <div id='Home'>
-            <div id={styles.nav} style={{ backgroundColor: colorMode === 'light' ? "" : '#488A99' }}>
+            <div id={styles.nav} style={{ backgroundColor: colorMode === 'light' ? "#4C3575" : '#BFACE0' }}>
                 <Link smooth to='#Home'>
                     <img className={styles.logo} src='https://cdn.dribbble.com/users/1299339/screenshots/8066902/media/ccbb49a1f92531a2e045c5e1b723d27f.gif' alt="logo" />
                 </Link>

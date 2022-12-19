@@ -31,8 +31,8 @@ export default function Contact({colorMode}) {
     return (
         <Box id='Contact'>
             <div style={{ height: "100px" }}></div>
-            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#4C3575" : '#488A99'} mb='30px'>CONTACT ME</Heading>
-            <Box id={style.contact_mainDiv} backgroundColor={colorMode === 'light' ? "#A084CA" : '#1a6373'}>
+            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#4C3575" : '#BFACE0'} mb='30px'>CONTACT ME</Heading>
+            <Box id={style.contact_mainDiv} backgroundColor={colorMode === 'light' ? "#A084CA" : '#BFACE0'}>
                 <Box id={style.contact_leftDiv}>
                     <Box>
                         <form action="" onSubmit={SendMail}>
