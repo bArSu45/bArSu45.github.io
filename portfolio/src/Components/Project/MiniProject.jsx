@@ -38,7 +38,7 @@ export default function MiniProject({ colorMode }) {
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>A e-commerce website that allows people to buy super sale physical goods, services, and digital products over the internet rather than at a brick-and-mortar location.</Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript | React</Heading>
                     <Box className={style.major_project_detailsDi_btnDiv}>
-                        <Button size={['xs', 'sm', 'sm', 'md']}><a className={style.links} rel="noreferrer" href="https://www.google.com" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
+                        <Button size={['xs', 'sm', 'sm', 'md']}><a className={style.links} rel="noreferrer" href="https://github.com/bArSu45/Super-Sale" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
                         <Button size={['xs', 'sm', 'sm', 'md']}><a className={style.links} rel="noreferrer" href="https://toggl-launching.vercel.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
                     </Box>
                 </Box>
@@ -57,7 +57,7 @@ export default function MiniProject({ colorMode }) {
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>A online website where you can apply for new job and you can sort and filter job by job profile and salary.</Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>
                     <Box className={style.major_project_detailsDi_btnDiv}>
-                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://62aec458d002661172622f35--delightful-biscochitos-b2f2b6.netlify.app/" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
+                        <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://github.com/bArSu45/Job_App" target="_blank">Source Code </a> &nbsp;< FaGithub /> </Button>
                         <Button size={['xs', 'sm', 'sm', 'md']} ><a className={style.links} rel="noreferrer" href="https://62aec458d002661172622f35--delightful-biscochitos-b2f2b6.netlify.app/" target="_blank">Live </a> &nbsp;< FaArrowRight /> </Button>
                     </Box>
                 </Box>
