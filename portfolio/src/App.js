@@ -9,6 +9,7 @@ import Project from './Components/Project/Project';
 import Stat from './Components/Stat/Stat';
 import GitHub from './Components/Github/Github';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -24,6 +25,7 @@ function App() {
       <Stat colorMode={colorMode} />
       <GitHub colorMode={colorMode} />
       <Contact colorMode={colorMode} />
+      <Footer colorMode={colorMode} />
     </div>
   );
 }
