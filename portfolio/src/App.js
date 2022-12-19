@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar/Navbar'
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
+import Skills from './Components/Skills/Skills';
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -13,6 +14,7 @@ function App() {
       <Button size='lg' id='themeButton' onClick={toggleColorMode} > {colorMode === 'light' ? <FaMoon fontSize='20px' /> : <FaSun fontSize='20px' />}</Button>
       <Navbar colorMode={colorMode} />
       <Home colorMode={colorMode} />
+      <Skills colorMode={colorMode} />
       <About colorMode={colorMode} />
     </div>
   );

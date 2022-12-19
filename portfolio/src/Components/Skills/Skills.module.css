@@ -1,0 +1,65 @@
+#skill {
+    width: 90%;
+    margin: auto;
+}
+
+#skillDiv {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+
+.logo {
+    width: 50%;
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 5px 50px 5px;
+    box-shadow: #698474 0px 0px 0px 3px, #889E81 0px 0px 0px 6px, #BAC7A7 0px 0px 0px 9px, #CCD6A6 0px 0px 0px 12px, #E5E4CC 0px 0px 0px 15px;
+}
+
+.logo:hover {
+    box-shadow: #243D25 0px 0px 0px 9px;
+}
+
+.skillH3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #243D25;
+    text-decoration: underline;
+}
+
+.skillH3:hover {
+    color: #FEF5ED;
+}
+
+@media screen and (max-width:1180px) and (min-width:760px) {
+
+
+    #skillDiv {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px 10px;
+    }
+
+    .logo {
+        width: 65%;
+    }
+}
+@media screen and (max-width:759px) and (min-width:200px) {
+    
+    #skillDiv {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 35px;
+    }
+
+    .logo {
+        width: 75%;
+        height: 125px;
+    }
+}
