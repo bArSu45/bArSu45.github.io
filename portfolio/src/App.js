@@ -6,6 +6,7 @@ import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import Skills from './Components/Skills/Skills';
 import Project from './Components/Project/Project';
+import Stat from './Components/Stat/Stat';
 
 function App() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -18,6 +19,7 @@ function App() {
       <Skills colorMode={colorMode} />
       <Project colorMode={colorMode} />
       <About colorMode={colorMode} />
+      <Stat colorMode={colorMode} />
     </div>
   );
 }
