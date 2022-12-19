@@ -13,7 +13,7 @@ export default function MajorProject({ colorMode }) {
 
     return (
         <div id={style.majorMain}>
-            <Heading size={['lg', 'lg', 'lg', '2xl']} color={colorMode === 'light' ? "#243D25" : '#488A99'} textDecoration='underline'>Major Projects</Heading>
+            <Heading size={['lg', 'lg', 'lg', '2xl']} color={colorMode === 'light' ? "#4C3575" : '#488A99'} textDecoration='underline'>Major Projects</Heading>
             <div data-aos="fade-up"
                 className={style.major_projectDiv}  >
                 <Box className={style.major_project_imgDiv}>

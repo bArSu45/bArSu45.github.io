@@ -15,7 +15,7 @@ function App() {
   const { colorMode, toggleColorMode } = useColorMode()
 
   return (
-    <div className="App" style={{ backgroundColor: colorMode === 'light' ? '#99A799' : "#121212" }}>
+    <div className="App" style={{ backgroundColor: colorMode === 'light' ? '#EBC7E8' : "#121212" }}>
       <Button size='lg' id='themeButton' onClick={toggleColorMode} > {colorMode === 'light' ? <FaMoon fontSize='20px' /> : <FaSun fontSize='20px' />}</Button>
       <Navbar colorMode={colorMode} />
       <Home colorMode={colorMode} />

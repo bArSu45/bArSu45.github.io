@@ -11,11 +11,11 @@ export default function Home({ colorMode }) {
         <div>
             <VStack id={style.home} style={{ color: colorMode === 'light' ? "" : '#488A99' }}>
                 <Flex alignItems={isMediumScreen ? "end" : "start"} flexDirection={isSmallScreen ? "row" : "column"} >
-                    <Image id={style.myImg} src='/aa.png' alt='Barsa Ima' />
+                    <Image id={style.myImg} src='https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif' alt='Barsa Ima' />
                     <Box id={style.myDetailsDiv} >
                         <Heading id={style.myName}><span>Hey,</span><br /> I am Barsa Rani Ojha</Heading>
                         <Heading id={style.title}>Full Stack Web Developer</Heading>
-                        <Heading id={style.detail}>I am a Computer Science graduate with a penchant for both Frontend & Backend. I am passionate about enhancing user experience and maximizing user interface.I can quickly create websites using Chakra UI & Bootstrap, but I can also create websites with native coding.Strong creative and analytical skills. </Heading>
+                        {/* <Heading id={style.detail}>I am a Computer Science graduate with a penchant for both Frontend & Backend. I am passionate about enhancing user experience and maximizing user interface.I can quickly create websites using Chakra UI & Bootstrap, but I can also create websites with native coding.Strong creative and analytical skills. </Heading> */}
                     </Box>
                 </Flex>
             </VStack>

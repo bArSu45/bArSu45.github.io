@@ -9,7 +9,7 @@ export default function Project({ colorMode }) {
         <div>
             <div id='Projects' style={{ height: "100px" }}></div>
             <div id={style.projects}>
-                <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#243D25" : '#488A99'}>PROJECTS</Heading>
+                <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#4C3575" : '#488A99'}>PROJECTS</Heading>
                 <MajorProject colorMode={colorMode} />
                 <MiniProject colorMode={colorMode} />
             </div>

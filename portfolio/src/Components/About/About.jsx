@@ -12,10 +12,10 @@ export default function About({ colorMode }) {
     return (
         <Box>
             <div id='About' style={{ height: "100px" }}></div>
-            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#243D25" : '#488A99'}>ABOUT</Heading>
+            <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#4C3575" : '#488A99'}>ABOUT</Heading>
             <div data-aos="flip-left">
-                <Box id={style.aboutDiv} color={colorMode === 'light' ? "#243D25" : '#488A99'}>
-                    <Image id={style.myImg} src='/aa.png' alt='Barsa Ima' />
+                <Box id={style.aboutDiv} color={colorMode === 'light' ? "#4C3575" : '#488A99'}>
+                    <Image id={style.myImg} src='/barsu.png' alt='Barsa Ima' />
                     <Box id={style.aboutDetails}>
                         <p className={style.name}>I am Barsa Rani Ojha</p>
                         <p className={style.name}>Full Stack Web Developer</p>
@@ -25,7 +25,7 @@ export default function About({ colorMode }) {
                             individual. I have good interpersonal skills, am an
                             excellent team worker and am keen and very willing to
                             learn and develop new skills.</p>
-                        <Box id={style.resumeDiv} backgroundColor={colorMode === 'light' ? "#243D25" : '#488A99'}>
+                        <Box id={style.resumeDiv} backgroundColor={colorMode === 'light' ? "#4C3575" : '#488A99'}>
                             <a id={style.resumeButton} href="./Barsa.pdf" download="Barsu's Resume">Resume &nbsp;<FaDownload className={style.resumeDownloadLogo} /></a>
                         </Box>
                     </Box>

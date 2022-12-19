@@ -1,13 +1,15 @@
 #home {
   width: 80%;
   margin: auto;
-  margin-top: 150px;
-  color: #243D25;
+  margin-top: 250px;
+  margin-bottom: 100px;
+  /* color: #243D25; */
+  color: #4C3575;
 }
 
 #myImg {
   border-radius: 30px;
-  width: 350px;
+  width: 500px;
   height: 450px;
 }
 
@@ -19,7 +21,7 @@
 
 #myName {
   margin-bottom: 7px;
-  font-size: 38px;
+  font-size: 88px;
   animation: type 3s steps(22);
   overflow: hidden;
   white-space: nowrap;
@@ -27,7 +29,7 @@
 
 #title {
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 42px;
   animation: type 3s steps(22);
   overflow: hidden;
   white-space: nowrap;

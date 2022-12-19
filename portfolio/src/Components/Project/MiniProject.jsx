@@ -19,7 +19,7 @@ export default function MiniProject({ colorMode }) {
                 <Box className={style.major_project_imgDiv}>
                     <Image src='https://clinquant-lily-6a6bb2.netlify.app/5.png' alt='barsu' />
                 </Box>
-                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#243D25" : '#488A99'}>
+                <Box className={style.major_project_detailsDiv} color={colorMode === 'light' ? "#4C3575" : '#488A99'}>
                     <Heading className={style.major_project_detailsDiv_Heading} size={['md', 'md', 'md', 'lg']}>YOUTUBE(Cloned)</Heading>
                     <Heading className={style.major_project_detailsDiv_detail} fontWeight="500" size={['xs', 'sm', 'sm', 'md']}>YouTube is an American online video sharing and social media platform headquartered in San Bruno, California. </Heading>
                     <Heading className={style.major_project_detailsDiv_tehcs} size={['sm', 'sm', 'sm', 'md']}>Tech Stack: HTML | CSS | JavaScript</Heading>
