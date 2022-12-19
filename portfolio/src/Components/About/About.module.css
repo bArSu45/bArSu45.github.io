@@ -1,0 +1,153 @@
+#about_head {
+    font-size: 3xl;
+    text-align: center;
+}
+
+#aboutDiv {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 60%;
+    height: 450px;
+    margin: auto;
+    border: 5px solid #243D25;
+    display: flex;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+#aboutDetails {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 60%;
+}
+
+#myImg {
+    border-radius: 30px 0px 0px 30px;
+    width: 32%;
+    height: 100%;
+}
+
+.name {
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.namep {
+
+    font-size: 25px;
+}
+
+#resumeDiv {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: #FEF5ED;
+    width: fit-content;
+    padding: 3px 10px 3px 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#resumeButton {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.resumeDownloadLogo {
+    font-size: 22px;
+}
+
+@media screen and (max-width:1180px) and (min-width:760px) {
+    #about_head {
+        font-size: 3xl;
+        text-align: center;
+    }
+
+    #aboutDiv {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        width: 80%;
+        height: 430px;
+        margin-top: 30px;
+        border-radius: 30px;
+        align-items: center;
+    }
+
+    #aboutDetails {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .name {
+        font-size: 22px;
+
+    }
+
+    .namep {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    #resumeButton {
+        font-size: 18px;
+    }
+
+    .resumeDownloadLogo {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:759px) and (min-width:200px) {
+    #about_head {
+        font-size: 3xl;
+        text-align: center;
+    }
+
+    #aboutDiv {
+        flex-direction: column;
+        width: 80%;
+        height: 700px;
+    }
+
+    #myImg {
+        width: 100%;
+        height: 50%;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    #aboutDetails {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 100%;
+    }
+
+    .name {
+        font-size: 18px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .name:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .namep {
+        color: #243D25;
+        font-size: 16px;
+    }
+
+    #resumeDiv {
+        margin-bottom: 20px;
+    }
+
+    #resumeButton {
+        font-size: 16px;
+    }
+
+    .resumeDownloadLogo {
+        font-size: 16px;
+    }
+}
