@@ -15,9 +15,9 @@ export default function About({ colorMode }) {
             <Heading size={['2xl', '2xl', '2xl', '3xl']} textAlign='center' color={colorMode === 'light' ? "#4C3575" : '#BFACE0'}>ABOUT</Heading>
             <div data-aos="flip-left">
                 <Box id={style.aboutDiv} color={colorMode === 'light' ? "#4C3575" : '#BFACE0'}>
-                    <Image id={style.myImg} src='/barsu.png' alt='Barsa Ima' />
+                    <Image id={style.myImg} src='./Barsu.png' alt='Barsa Ima' />
                     <Box id={style.aboutDetails}>
-                        <p className={style.name}>I am Barsa Rani Ojha</p>
+                        <p className={style.name}>This is Barsa Rani Ojha</p>
                         <p className={style.name}>Full Stack Web Developer</p>
                         <p className={style.name}>Master In Computer Application</p>
                         <p className={style.name}>I live in Jagatsinghpur,Odisha,India</p>

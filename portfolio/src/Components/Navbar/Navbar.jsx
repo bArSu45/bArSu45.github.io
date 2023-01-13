@@ -52,37 +52,35 @@ export default function Navbar({ colorMode }) {
 
                 <div id={styles.nav2}>
                     <Menu>
-                        <MenuButton
-                            color='#243D25'
-                            backgroundColor="#FEF5ED"
+                        <MenuButton style={{ backgroundColor: colorMode === 'light' ? "#EBC7E8" : '#4C3575',color: colorMode === 'light' ? "#4C3575" : '#EBC7E8'  }}
                             as={Button}
                             rightIcon={< HamburgerIcon />}
                         />
-                        <MenuList color='#243D25'
-                            backgroundColor="#FEF5ED" >
+                        <MenuList 
+                            style={{ backgroundColor: colorMode === 'light' ? "#EBC7E8" : '#4C3575',color: colorMode === 'light' ? "#4C3575" : '#EBC7E8'  }}>
                             <Link smooth to='#Home'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' style={{backgroundColor: colorMode === 'light' ? "#EBC7E8" : '#4C3575', color: colorMode === 'light' ? "#4C3575" : '#EBC7E8' }}>
                                     Home
                                 </MenuItem>
                             </Link>
 
                             <Link smooth to='#About'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' style={{backgroundColor: colorMode === 'light' ? "#EBC7E8" : '#4C3575',color: colorMode === 'light' ? "#4C3575" : '#EBC7E8' }}>
                                     About
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#Skills'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' style={{backgroundColor: colorMode === 'light' ? "#EBC7E8" : '#4C3575',color: colorMode === 'light' ? "#4C3575" : '#EBC7E8' }}>
                                     Skills
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#Projects'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' style={{backgroundColor: colorMode === 'light' ? "#EBC7E8" : '#4C3575',color: colorMode === 'light' ? "#4C3575" : '#EBC7E8' }}>
                                     Projects
                                 </MenuItem>
                             </Link>
                             <Link smooth to='#Contact'>
-                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' color='#243D25'>
+                                <MenuItem fontSize={{ base: '20px', md: '25px', lg: '25px' }} fontWeight='bold' style={{backgroundColor: colorMode === 'light' ? "#EBC7E8" : '#4C3575',color: colorMode === 'light' ? "#4C3575" : '#EBC7E8' }}>
                                     Contact
                                 </MenuItem>
                             </Link>

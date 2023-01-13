@@ -15,7 +15,7 @@ export default function Footer({ colorMode }) {
 
                 <Box display='flex' justifyContent='center' alignItems='center' marginTop='20px'>
                     <FaPhone />
-                    &nbsp; <p>7440147634</p>
+                    &nbsp; <p>+917440147634</p>
                 </Box>
             </Box>
             <Box id={style.footer_mainDiv2} backgroundColor={colorMode === 'light' ? "#4C3575" : '#BFACE0'}>
